@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("kavidu4").login()
+		__import__("kavidu4").main()
 	else:
-		__import__("kavidu4").login()
+		__import__("kavidu4").main()
